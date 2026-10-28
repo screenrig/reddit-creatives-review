@@ -1,0 +1,1326 @@
+{
+  "project": "screenRIG Reddit paid test",
+  "generatedAt": "2026-10-27",
+  "targetRepoPath": "github.com/screenrig/marketing paid/creatives/reddit",
+  "format": "1080x1080 PNG",
+  "status": "draft — pending COO approval",
+  "campaigns": {
+    "product": {
+      "landing": "https://screenrig.ai/",
+      "cta": "Sign Up",
+      "count": 5
+    },
+    "usecase": {
+      "landing": "https://screenrig.ai/use-cases",
+      "cta": "Learn More",
+      "count": 8,
+      "note": "Hub landing locked; each creative themed by its use-case page"
+    },
+    "player": {
+      "landing": "https://screenrig.ai/downloads",
+      "cta": "Learn More",
+      "count": 8,
+      "note": "Available-now players only; Apple TV & Tizen skipped (coming soon)"
+    }
+  },
+  "creatives": [
+    {
+      "id": "product-01",
+      "filename": "product-01.png",
+      "campaign": "product",
+      "theme": "agent-native signage",
+      "onImageText": [
+        "Your agent runs",
+        "your screens."
+      ],
+      "headline": "Free digital signage your AI agent runs for you",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "morning! I checked the meeting-room bookings and put the four free rooms on the board by the lifts, with Kew and Hyde marked in use"
+        },
+        {
+          "role": "you",
+          "text": "keep the lobby screen on today's visitors from my calendar"
+        },
+        {
+          "role": "agent",
+          "text": "done. six guests today, and Elena Kowalski's 11:00 is highlighted now"
+        }
+      ],
+      "scene": "Corporate lobby: welcome board and meeting-room board (repo ad-01); background taken from the existing repo creative (old phone and footer removed), overlaid with the light Grok Bot silver iPhone (9:05).",
+      "cta": "Sign Up",
+      "destination": "https://screenrig.ai/?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-product&utm_content=product-01",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "lobby",
+        "screenTitle": "",
+        "rows": [],
+        "photo": "assets/product-01-crisp-scene.png",
+        "photoThumb": "assets/product-01-crisp-scene-thumb.jpg",
+        "screenFill": null,
+        "officeVariant": null,
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": null,
+        "badgeSize": "",
+        "header": "badge"
+      },
+      "screenContent": "Crisp re-rendered screen content (HTML -> perspective warp, native 1080 px) - make_crisp_screens.py",
+      "visualSource": "Repo creative ad-01.png (Chris's preferred background): scene below header, old phone/footer inpainted — make_product_from_repo.py",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "Players layout params applied",
+      "backgroundSource": "github.com/screenrig/marketing/blob/main/paid/creatives/reddit/ad-01.png",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "product-02",
+      "filename": "product-02.png",
+      "campaign": "product",
+      "theme": "pair in seconds",
+      "onImageText": [
+        "Pair a screen.",
+        "Your agent does the rest."
+      ],
+      "headline": "Pair a screen, tell your agent what to show. Free signage.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "the screenRIG plugin is installed, and I can read your menu sheet and calendar, so I'm ready for your first screen"
+        },
+        {
+          "role": "you",
+          "text": "use screenrig.ai to pair DA4 JN2"
+        },
+        {
+          "role": "agent",
+          "text": "paired. want today's menu from your sheet on it?"
+        }
+      ],
+      "scene": "Café TV showing the screenRIG pairing code (repo ad-07); background taken from the existing repo creative (old phone and footer removed), overlaid with the light Grok Bot silver iPhone (9:05).",
+      "cta": "Sign Up",
+      "destination": "https://screenrig.ai/?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-product&utm_content=product-02",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "cafe",
+        "screenTitle": "",
+        "rows": [],
+        "photo": "assets/product-02-repo-ad-07-scene.png",
+        "photoThumb": "assets/product-02-repo-ad-07-scene-thumb.jpg",
+        "screenFill": null,
+        "officeVariant": null,
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": null,
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "screenContent": "As in the repo creative",
+      "visualSource": "Repo creative ad-07.png (Chris's preferred background): scene below header, old phone/footer inpainted — make_product_from_repo.py",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "Players layout params applied",
+      "backgroundSource": "github.com/screenrig/marketing/blob/main/paid/creatives/reddit/ad-07.png",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "product-03",
+      "filename": "product-03.png",
+      "campaign": "product",
+      "theme": "docs & sheets live",
+      "onImageText": [
+        "Your docs and sheets,",
+        "live on screen."
+      ],
+      "headline": "Turn your Google Sheets into live screens, free",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "the pastry case screen shows today's bakes from your prep doc, and sold-out items drop off as you mark them"
+        },
+        {
+          "role": "you",
+          "text": "show the pickup orders from our orders sheet on the counter TV"
+        },
+        {
+          "role": "agent",
+          "text": "done. it's live with six orders, and A‑1041 shows ready"
+        }
+      ],
+      "scene": "Café pickup counter showing a Google Sheet of pickup orders (repo ad-06); background taken from the existing repo creative (old phone and footer removed), overlaid with the light Grok Bot silver iPhone (9:05).",
+      "cta": "Sign Up",
+      "destination": "https://screenrig.ai/?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-product&utm_content=product-03",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "cafe",
+        "screenTitle": "",
+        "rows": [],
+        "photo": "assets/product-03-repo-ad-06-scene.png",
+        "photoThumb": "assets/product-03-repo-ad-06-scene-thumb.jpg",
+        "screenFill": null,
+        "officeVariant": null,
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": null,
+        "badgeSize": "",
+        "header": "badge"
+      },
+      "screenContent": "As in the repo creative",
+      "visualSource": "Repo creative ad-06.png (Chris's preferred background): scene below header, old phone/footer inpainted — make_product_from_repo.py",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "Players layout params applied",
+      "backgroundSource": "github.com/screenrig/marketing/blob/main/paid/creatives/reddit/ad-06.png",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "product-04",
+      "filename": "product-04.png",
+      "campaign": "product",
+      "theme": "no dashboard needed",
+      "onImageText": [
+        "No dashboard.",
+        "Just ask."
+      ],
+      "headline": "Skip the signage dashboard. Just ask your agent. Free.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "this morning's numbers from the CRM are on the wall: orders are down 2.3% on last week and satisfaction is at 96.4%"
+        },
+        {
+          "role": "you",
+          "text": "keep the sales wall updated from the CRM every hour"
+        },
+        {
+          "role": "agent",
+          "text": "done. $1.3M this week, 64% of goal, and the leaderboard refreshes hourly"
+        }
+      ],
+      "scene": "Operations office dashboard wall (repo ad-03); background taken from the existing repo creative (old phone and footer removed), overlaid with the light Grok Bot silver iPhone (9:05).",
+      "cta": "Sign Up",
+      "destination": "https://screenrig.ai/?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-product&utm_content=product-04",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "gym",
+        "screenTitle": "",
+        "rows": [],
+        "photo": "assets/product-04-repo-ad-03-scene.png",
+        "photoThumb": "assets/product-04-repo-ad-03-scene-thumb.jpg",
+        "screenFill": null,
+        "officeVariant": null,
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": null,
+        "badgeSize": "",
+        "header": "badge"
+      },
+      "screenContent": "As in the repo creative",
+      "visualSource": "Repo creative ad-03.png (Chris's preferred background): scene below header, old phone/footer inpainted — make_product_from_repo.py",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "Players layout params applied",
+      "backgroundSource": "github.com/screenrig/marketing/blob/main/paid/creatives/reddit/ad-03.png",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "product-05",
+      "filename": "product-05.png",
+      "campaign": "product",
+      "theme": "one chat, every screen",
+      "onImageText": [
+        "One chat.",
+        "Every screen."
+      ],
+      "headline": "Update every screen in your building from one chat, for free",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "the new-arrivals slideshow from your product folder is on the wall, with this week's prices from your sheet"
+        },
+        {
+          "role": "you",
+          "text": "pull the fall promo from our marketing folder and run it this weekend"
+        },
+        {
+          "role": "agent",
+          "text": "done. Fall Refresh is up on all four panels until Sunday close"
+        }
+      ],
+      "scene": "Boutique 2x2 video wall running the Fall Refresh promo (repo ad-02); background taken from the existing repo creative (old phone and footer removed), overlaid with the light Grok Bot silver iPhone (9:05).",
+      "cta": "Sign Up",
+      "destination": "https://screenrig.ai/?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-product&utm_content=product-05",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "office",
+        "screenTitle": "",
+        "rows": [],
+        "photo": "assets/product-05-repo-ad-02-scene.png",
+        "photoThumb": "assets/product-05-repo-ad-02-scene-thumb.jpg",
+        "screenFill": null,
+        "officeVariant": null,
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": null,
+        "badgeSize": "",
+        "header": "badge"
+      },
+      "screenContent": "As in the repo creative",
+      "visualSource": "Repo creative ad-02.png (Chris's preferred background): scene below header, old phone/footer inpainted — make_product_from_repo.py",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "Players layout params applied",
+      "backgroundSource": "github.com/screenrig/marketing/blob/main/paid/creatives/reddit/ad-02.png",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "usecase-01",
+      "filename": "usecase-01.png",
+      "campaign": "usecase",
+      "theme": "pharmacy — Pharmacy (screenrig.ai/use-cases/pharmacy)",
+      "onImageText": [
+        "Prescriptions ready,",
+        "queue on screen."
+      ],
+      "headline": "Free pharmacy screens your AI agent keeps current",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "I'm watching your pickup sheet, 5 scripts waiting"
+        },
+        {
+          "role": "you",
+          "text": "show ready-for-pickup numbers on the counter screen"
+        },
+        {
+          "role": "agent",
+          "text": "done. numbers only, no names, and #218 just turned ready"
+        }
+      ],
+      "scene": "Photoreal community pharmacy: mint-accent counter, unbranded shelves; 16:9 wall screen with 'Ready for pickup' numbers 214/216/218 and a flu-shot walk-in promo.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-01",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "pharmacy",
+        "screenTitle": "Ready for pickup",
+        "rows": [
+          "#214 Ready",
+          "#216 Ready",
+          "#218 Ready",
+          "Flu shots · walk-ins welcome"
+        ],
+        "photo": "assets/usecase-01-16x9.png",
+        "photoThumb": "assets/usecase-01-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "brandLogo": true,
+        "badgeSize": "",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "usecase-02",
+      "filename": "usecase-02.png",
+      "campaign": "usecase",
+      "theme": "restaurants — Restaurants (screenrig.ai/use-cases/restaurants)",
+      "onImageText": [
+        "Menus that update",
+        "when you sell out."
+      ],
+      "headline": "Free menu boards your AI agent updates as you sell out",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "your menu sheet has 14 items, 2 marked sold out"
+        },
+        {
+          "role": "you",
+          "text": "put lunch specials on the boards above the counter"
+        },
+        {
+          "role": "agent",
+          "text": "done. sold-out items are greyed out, and the soup of the day is up"
+        }
+      ],
+      "scene": "Photoreal fast-casual restaurant: three 16:9 menu boards over the pass with food photography (grain bowl, chicken wrap marked Sold out, tomato basil soup), kitchen staff blurred.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-02",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "restaurant",
+        "screenTitle": "Lunch specials",
+        "rows": [
+          "Tomato basil soup · 7",
+          "Chicken shawarma bowl · 14",
+          "Falafel wrap · 12",
+          "Lemonade · 4"
+        ],
+        "photo": "assets/usecase-02-16x9.png",
+        "photoThumb": "assets/usecase-02-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "brandLogo": true,
+        "badgeSize": "",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "usecase-03",
+      "filename": "usecase-03.png",
+      "campaign": "usecase",
+      "theme": "campus — Campus (screenrig.ai/use-cases/campus)",
+      "onImageText": [
+        "Every building,",
+        "one message away."
+      ],
+      "headline": "Free campus signage your AI agent runs across buildings",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "18 screens across library, union and labs are online"
+        },
+        {
+          "role": "you",
+          "text": "show today's events and the shuttle times in the union"
+        },
+        {
+          "role": "agent",
+          "text": "done. events from your calendar plus live shuttle times are up"
+        }
+      ],
+      "scene": "Photoreal student union hallway, students motion-blurred; 16:9 screen on brick wall: 'Today on campus' events, Shuttle B in 4 min, weather tile.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-03",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "campus",
+        "screenTitle": "Today on campus",
+        "rows": [
+          "Career fair · Union Hall · 11:00",
+          "Shuttle B · 4 min",
+          "Library open until 2 AM",
+          "Guest lecture · 18:00"
+        ],
+        "photo": "assets/usecase-03-16x9.png",
+        "photoThumb": "assets/usecase-03-16x9-thumb.jpg",
+        "phoneSide": "left",
+        "brandLogo": true,
+        "badgeSize": "",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "usecase-04",
+      "filename": "usecase-04.png",
+      "campaign": "usecase",
+      "theme": "factory-floor — Factory floor (screenrig.ai/use-cases/factory-floor)",
+      "onImageText": [
+        "Shift KPIs on the floor,",
+        "no IT ticket."
+      ],
+      "headline": "Free factory-floor screens with live shift KPIs from your agent",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "your production sheet updates every 15 min"
+        },
+        {
+          "role": "you",
+          "text": "put line output vs target on the floor screens"
+        },
+        {
+          "role": "agent",
+          "text": "done. Line 2 is at 94% and shows amber until it's back on target"
+        }
+      ],
+      "scene": "Photoreal factory floor, worker in hi-vis; 16:9 post-mounted wallboard: Line 1/2/3 at 102/94/99%, output vs target chart, 212 days without incident.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-04",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "factory",
+        "screenTitle": "Shift B · Line status",
+        "rows": [
+          "Line 1 · 102% ✓",
+          "Line 2 · 94% ▲",
+          "Line 3 · 99% ✓",
+          "212 days without incident"
+        ],
+        "photo": "assets/usecase-04-16x9.png",
+        "photoThumb": "assets/usecase-04-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "brandLogo": true,
+        "badgeSize": "sm",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "usecase-05",
+      "filename": "usecase-05.png",
+      "campaign": "usecase",
+      "theme": "hotels — Hotels (screenrig.ai/use-cases/hotels)",
+      "onImageText": [
+        "Welcome guests",
+        "by name."
+      ],
+      "headline": "Free hotel lobby screens your AI agent keeps up to date",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "I see 3 events in your function room calendar today"
+        },
+        {
+          "role": "you",
+          "text": "show today's events and the breakfast hours in the lobby"
+        },
+        {
+          "role": "agent",
+          "text": "done. events are listed by room, and breakfast ends at 10:30"
+        }
+      ],
+      "scene": "Photoreal boutique hotel lobby, marble and walnut; brass-framed 16:9 screen: 'Welcome · Today's Events' (Ballroom A, Terrace, Breakfast 6:30–10:30) + weather.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-05",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "hotel",
+        "screenTitle": "Today at the Harbour",
+        "rows": [
+          "Breakfast · 6:30–10:30",
+          "Halcyon Labs · Ballroom A",
+          "Wedding reception · Terrace",
+          "Spa open until 21:00"
+        ],
+        "photo": "assets/usecase-05-16x9.png",
+        "photoThumb": "assets/usecase-05-16x9-thumb.jpg",
+        "phoneSide": "left",
+        "brandLogo": true,
+        "badgeSize": "",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "usecase-06",
+      "filename": "usecase-06.png",
+      "campaign": "usecase",
+      "theme": "franchise-networks — Franchise networks (screenrig.ai/use-cases/franchise-networks)",
+      "onImageText": [
+        "Every location.",
+        "One chat."
+      ],
+      "headline": "Roll out the same promo to every franchise location, free",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "I can see 24 locations, 48 screens"
+        },
+        {
+          "role": "you",
+          "text": "launch the fall promo everywhere, local prices from the sheet"
+        },
+        {
+          "role": "agent",
+          "text": "done. live at all 24, each store shows its own price"
+        }
+      ],
+      "scene": "Photoreal franchise café with 16:9 'Fall Favourites' promo screen; through the window a sister location runs the same promo, implying a network.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-06",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "franchise",
+        "screenTitle": "Fall promo · rolling out",
+        "rows": [
+          "Toronto · live",
+          "Calgary · live",
+          "Vancouver · live",
+          "Seattle · live"
+        ],
+        "photo": "assets/usecase-06-16x9.png",
+        "photoThumb": "assets/usecase-06-16x9-thumb.jpg",
+        "phoneSide": "left",
+        "brandLogo": true,
+        "badgeSize": "",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "usecase-07",
+      "filename": "usecase-07.png",
+      "campaign": "usecase",
+      "theme": "museums — Museums (screenrig.ai/use-cases/museums)",
+      "onImageText": [
+        "Exhibit screens that",
+        "change with the gallery."
+      ],
+      "headline": "Free museum signage your AI agent updates by gallery",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "your exhibits doc lists 6 galleries and 2 tours today"
+        },
+        {
+          "role": "you",
+          "text": "show the gallery map and next tour times at the entrance"
+        },
+        {
+          "role": "agent",
+          "text": "done. the next tour is 2:00 in Gallery 3, highlighted now"
+        }
+      ],
+      "scene": "Photoreal museum entrance hall with skylight; 16:9 screen: impressionist artwork + 'Today's tours' (Gallery 3 · 14:00 highlighted) and gallery map.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-07",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "museum",
+        "screenTitle": "Today's tours",
+        "rows": [
+          "Gallery 3 · Impressionists · 14:00",
+          "Gallery 5 · Ancient Egypt · 15:30",
+          "Audio guides at desk",
+          "Café open until 17:00"
+        ],
+        "photo": "assets/usecase-07-16x9.png",
+        "photoThumb": "assets/usecase-07-16x9-thumb.jpg",
+        "phoneSide": "left",
+        "brandLogo": true,
+        "badgeSize": "sm",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "usecase-08",
+      "filename": "usecase-08.png",
+      "campaign": "usecase",
+      "theme": "corporate-offices — Corporate offices (screenrig.ai/use-cases/corporate-offices)",
+      "onImageText": [
+        "Rooms, guests, news,",
+        "all on autopilot."
+      ],
+      "headline": "Free office screens: visitors, rooms and news from your calendar",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "Kew and Hyde are booked, 6 guests arrive today"
+        },
+        {
+          "role": "you",
+          "text": "keep the lobby screen on today's visitors from my calendar"
+        },
+        {
+          "role": "agent",
+          "text": "done. six guests today, and Sophie Chen's visit is highlighted"
+        }
+      ],
+      "scene": "Photoreal corporate lobby, stone wall and wood slats; 16:9 visitor board: 'Good afternoon', today's guests with one highlighted, meeting-room status strip.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/use-cases?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-usecase&utm_content=usecase-08",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "lobby",
+        "screenTitle": "Today's guests",
+        "rows": [
+          "Priya Raman · Halcyon Labs",
+          "Marcus Webb · Delta Freight",
+          "Elena Kowalski · 11:00",
+          "Tomas Lindqvist · Northwind"
+        ],
+        "photo": "assets/usecase-08-16x9.png",
+        "photoThumb": "assets/usecase-08-16x9-thumb.jpg",
+        "phoneSide": "left",
+        "brandLogo": true,
+        "badgeSize": "",
+        "header": "badge",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "titleClass": "t-long"
+      },
+      "screenAspect": "16:9",
+      "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline"
+    },
+    {
+      "id": "player-01",
+      "filename": "player-01.png",
+      "campaign": "player",
+      "theme": "android-tv — Android TV",
+      "onImageText": [
+        "Any Android TV becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any Android TV becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "the screenRIG Player is on your Android TV, code showing"
+        },
+        {
+          "role": "you",
+          "text": "pair it and put the Los Angeles weather on it"
+        },
+        {
+          "role": "agent",
+          "text": "paired. Los Angeles is sunny and 17° now, 7‑day forecast is live"
+        }
+      ],
+      "scene": "Photoreal corporate lobby: oak slat wall above a white stone reception console; wall-mounted glossy 16:9 TV (Android TV player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + Android TV tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-01",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "cafe",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "android-tv",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-a-la-16x9.png",
+        "photoThumb": "assets/player-office-a-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.20625,
+          "y": 0.20833333333333334,
+          "w": 0.39453125,
+          "h": 0.4013888888888889,
+          "ratio": 1.7474048442906573
+        },
+        "officeVariant": "a",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          213,
+          126,
+          805,
+          459
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + Android TV tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "status": "layout approved on player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "player-02",
+      "filename": "player-02.png",
+      "campaign": "player",
+      "theme": "amazon-signage-stick — Amazon Signage Stick / Fire TV",
+      "onImageText": [
+        "Any Fire TV Stick becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any Fire TV Stick becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "your Fire TV Stick checked in, code showing"
+        },
+        {
+          "role": "you",
+          "text": "pair it and put the Los Angeles weather on the hallway TV"
+        },
+        {
+          "role": "agent",
+          "text": "paired. Los Angeles is sunny and 17°, 7‑day forecast is live"
+        }
+      ],
+      "scene": "Photoreal corporate hallway: grey stone wall, bench and tall plant, glass meeting room at right; wall-mounted glossy 16:9 TV (Amazon Signage Stick / Fire TV player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + Amazon Signage Stick / Fire TV tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-02",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "retail",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "amazon-signage-stick",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-b-la-16x9.png",
+        "photoThumb": "assets/player-office-b-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.14921875,
+          "y": 0.17083333333333334,
+          "w": 0.4125,
+          "h": 0.42916666666666664,
+          "ratio": 1.7087378640776698
+        },
+        "officeVariant": "b",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          145,
+          101,
+          765,
+          450
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + Amazon Signage Stick / Fire TV tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "same layout as approved player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "player-03",
+      "filename": "player-03.png",
+      "campaign": "player",
+      "theme": "raspberry-pi — Raspberry Pi",
+      "onImageText": [
+        "Any Raspberry Pi becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any Raspberry Pi becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "your Raspberry Pi booted into the screenRIG Player"
+        },
+        {
+          "role": "you",
+          "text": "show the Los Angeles weather on the break room screen"
+        },
+        {
+          "role": "agent",
+          "text": "done. LA is 17° and sunny, hourly chart runs to midnight"
+        }
+      ],
+      "scene": "Photoreal open-plan office break area: white wall, pendant lights hanging in front of the TV, credenza with coffee machine, tall windows; wall-mounted glossy 16:9 TV (Raspberry Pi player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + Raspberry Pi tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-03",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "factory",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "raspberry-pi",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-c-la-16x9.png",
+        "photoThumb": "assets/player-office-c-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.23359375,
+          "y": 0.22916666666666666,
+          "w": 0.37109375,
+          "h": 0.3875,
+          "ratio": 1.7025089605734767
+        },
+        "officeVariant": "c",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          248,
+          146,
+          805,
+          459
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + Raspberry Pi tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "same layout as approved player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "player-04",
+      "filename": "player-04.png",
+      "campaign": "player",
+      "theme": "linux — Linux",
+      "onImageText": [
+        "Any Linux PC becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any Linux PC becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "the Linux player on your mini PC is online"
+        },
+        {
+          "role": "you",
+          "text": "put the Los Angeles weather on the lounge screen"
+        },
+        {
+          "role": "agent",
+          "text": "done. sunny 17° in Los Angeles, forecast through Saturday"
+        }
+      ],
+      "scene": "Photoreal executive lounge at dusk: navy panelled wall with walnut trim, leather chair and floor lamp; wall-mounted glossy 16:9 TV (Linux player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + Linux tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-04",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "office",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "linux",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-d-la-16x9.png",
+        "photoThumb": "assets/player-office-d-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.1953125,
+          "y": 0.13055555555555556,
+          "w": 0.4296875,
+          "h": 0.42777777777777776,
+          "ratio": 1.7857142857142858
+        },
+        "officeVariant": "d",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          160,
+          65,
+          805,
+          427
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + Linux tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "same layout as approved player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "player-05",
+      "filename": "player-05.png",
+      "campaign": "player",
+      "theme": "windows — Windows",
+      "onImageText": [
+        "Any Windows PC becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any Windows PC becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "the Windows player is installed, code showing"
+        },
+        {
+          "role": "you",
+          "text": "pair it and show the Los Angeles weather in the lobby"
+        },
+        {
+          "role": "agent",
+          "text": "paired. Los Angeles is dry all day, 17° and sunny"
+        }
+      ],
+      "scene": "Photoreal corporate lobby: oak slat wall above a white stone reception console; wall-mounted glossy 16:9 TV (Windows player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + Windows tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-05",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "factory",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "windows",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-a-la-16x9.png",
+        "photoThumb": "assets/player-office-a-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.20625,
+          "y": 0.20833333333333334,
+          "w": 0.39453125,
+          "h": 0.4013888888888889,
+          "ratio": 1.7474048442906573
+        },
+        "officeVariant": "a",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          213,
+          126,
+          805,
+          459
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + Windows tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "same layout as approved player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "player-06",
+      "filename": "player-06.png",
+      "campaign": "player",
+      "theme": "brightsign — BrightSign",
+      "onImageText": [
+        "Any BrightSign becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any BrightSign becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "your BrightSign player is reporting in"
+        },
+        {
+          "role": "you",
+          "text": "put the Los Angeles forecast on the hallway screen"
+        },
+        {
+          "role": "agent",
+          "text": "done. sunny 17° in Los Angeles with the 7‑day outlook"
+        }
+      ],
+      "scene": "Photoreal corporate hallway: grey stone wall, bench and tall plant, glass meeting room at right; wall-mounted glossy 16:9 TV (BrightSign player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + BrightSign tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-06",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "retail",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "brightsign",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-b-la-16x9.png",
+        "photoThumb": "assets/player-office-b-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.14921875,
+          "y": 0.17083333333333334,
+          "w": 0.4125,
+          "h": 0.42916666666666664,
+          "ratio": 1.7087378640776698
+        },
+        "officeVariant": "b",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          145,
+          101,
+          765,
+          450
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + BrightSign tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "same layout as approved player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "player-07",
+      "filename": "player-07.png",
+      "campaign": "player",
+      "theme": "apple — Apple (macOS / iPhone / iPad)",
+      "onImageText": [
+        "Any Mac or iPad becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any Mac or iPad becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "the Mac mini in the lounge is paired"
+        },
+        {
+          "role": "you",
+          "text": "show the Los Angeles weather on the lounge screen"
+        },
+        {
+          "role": "agent",
+          "text": "done. Los Angeles is 17° and sunny, feels like 15°"
+        }
+      ],
+      "scene": "Photoreal executive lounge at dusk: navy panelled wall with walnut trim, leather chair and floor lamp; wall-mounted glossy 16:9 TV (Apple (macOS / iPhone / iPad) player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + Apple (macOS / iPhone / iPad) tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-07",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "salon",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "apple",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-d-la-16x9.png",
+        "photoThumb": "assets/player-office-d-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.1953125,
+          "y": 0.13055555555555556,
+          "w": 0.4296875,
+          "h": 0.42777777777777776,
+          "ratio": 1.7857142857142858
+        },
+        "officeVariant": "d",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          160,
+          65,
+          805,
+          427
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + Apple (macOS / iPhone / iPad) tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "same layout as approved player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    },
+    {
+      "id": "player-08",
+      "filename": "player-08.png",
+      "campaign": "player",
+      "theme": "pwa — Browser Player (PWA)",
+      "onImageText": [
+        "Any web browser becomes",
+        "a digital signage screen."
+      ],
+      "headline": "Any web browser becomes a free digital signage screen.",
+      "chat": [
+        {
+          "role": "agent",
+          "text": "open screenrig.ai/player in that TV's browser"
+        },
+        {
+          "role": "you",
+          "text": "done, code HQ2 7TR. pair it and show the Los Angeles weather"
+        },
+        {
+          "role": "agent",
+          "text": "paired. Los Angeles weather is full-screen, sunny 17°"
+        }
+      ],
+      "scene": "Photoreal open-plan office break area: white wall, pendant lights hanging in front of the TV, credenza with coffee machine, tall windows; wall-mounted glossy 16:9 TV (Browser Player (PWA) player, ~20px clear of the phone) showing the Los Angeles weather dashboard (sunny 17°, 7-day + hourly chart). Light-mode Grok Bot chat on a silver iPhone (Dynamic Island, 9:05). Black 'Works on' + Browser Player (PWA) tile inside the raised grey footer ribbon, bottom-left.",
+      "cta": "Learn More",
+      "destination": "https://screenrig.ai/downloads?utm_source=reddit&utm_medium=paid-social&utm_campaign=paid-test-reddit-player&utm_content=player-08",
+      "ribbon": "FREE / UP TO 50 SCREENS",
+      "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
+      "mock": {
+        "bg": "office",
+        "screenTitle": "Weather · Los Angeles",
+        "rows": [],
+        "logo": "pwa",
+        "screenFill": "assets/player-weather-la-16x9.png",
+        "screenFillThumb": null,
+        "photo": "assets/player-office-c-la-16x9.png",
+        "photoThumb": "assets/player-office-c-la-16x9-thumb.jpg",
+        "phoneSide": "right",
+        "screenBox": {
+          "x": 0.23359375,
+          "y": 0.22916666666666666,
+          "w": 0.37109375,
+          "h": 0.3875,
+          "ratio": 1.7025089605734767
+        },
+        "officeVariant": "c",
+        "logoPlacement": "frame",
+        "titleClass": "t-long",
+        "phoneStyle": "grok-light",
+        "agentName": "Chief",
+        "brandLogo": true,
+        "tvScreenPx1280": [
+          248,
+          146,
+          805,
+          459
+        ],
+        "badgeSize": "sm",
+        "header": "badge"
+      },
+      "visualSource": "AI-generated photoreal office wall (Grok Bot image tool) + Chris's weather screenshot (city relabelled to Los Angeles) composited, gloss added — make_player_composites.py",
+      "screenContent": "Weather dashboard (Los Angeles, sunny 17°, 7-day + hourly chart) — Chris's reference with city relabelled; glossy bezel, TV ≈32% larger than source photo",
+      "playerLogoTile": "Black rounded 'Works on' + Browser Player (PWA) tile, no outline, subtle shadow, fitted inside the grey footer ribbon (raised 50px) at bottom-left of the ad frame",
+      "brandAssets": {
+        "source": "https://screenrig.ai/brandkit",
+        "logomark": "https://screenrig.ai/static-resources/logos/logomark/screenrig-logomark-amber-1024-7a0ea813.png",
+        "wordmark": "https://screenrig.ai/static-resources/logos/wordmark/screenrig-wordmark-d8c4e165.png",
+        "size": "13% smaller than initial brandkit placement"
+      },
+      "status": "same layout as approved player-01",
+      "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "screenAspect": "16:9"
+    }
+  ]
+}
