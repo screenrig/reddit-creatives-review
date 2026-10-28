@@ -204,8 +204,8 @@
       "campaign": "product",
       "theme": "no dashboard needed",
       "onImageText": [
-        "No dashboard.",
-        "Just ask."
+        "No dashboard?",
+        "Just ask your agent."
       ],
       "headline": "Skip the expensive dashboard app. Just ask your agent. It's Free.",
       "chat": [
