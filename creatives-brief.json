@@ -908,33 +908,33 @@
       "ribbon": "FREE / UP TO 50 SCREENS",
       "footer": "Designed for Meta Muse, Grok Bot, ChatGPT dots, Hermes and similar agents",
       "mock": {
-        "bg": "factory",
+        "bg": "retail",
         "screenTitle": "Weather · Los Angeles",
         "rows": [],
         "logo": "raspberry-pi",
         "screenFill": "assets/player-weather-la-16x9.png",
         "screenFillThumb": null,
-        "photo": "assets/player-office-c-la-16x9.png",
-        "photoThumb": "assets/player-office-c-la-16x9-thumb.jpg",
+        "photo": "assets/player-office-b-la-16x9.png",
+        "photoThumb": "assets/player-office-b-la-16x9-thumb.jpg",
         "phoneSide": "right",
         "screenBox": {
-          "x": 0.23359375,
-          "y": 0.22916666666666666,
-          "w": 0.37109375,
-          "h": 0.3875,
-          "ratio": 1.7025089605734767
+          "x": 0.14921875,
+          "y": 0.17083333333333334,
+          "w": 0.4125,
+          "h": 0.42916666666666664,
+          "ratio": 1.7087378640776698
         },
-        "officeVariant": "c",
+        "officeVariant": "b",
         "logoPlacement": "frame",
         "titleClass": "t-long",
         "phoneStyle": "grok-light",
         "agentName": "Chief",
         "brandLogo": true,
         "tvScreenPx1280": [
-          248,
-          146,
-          805,
-          459
+          145,
+          101,
+          765,
+          450
         ],
         "badgeSize": "sm",
         "header": "badge"
@@ -950,6 +950,7 @@
       },
       "status": "same layout as approved player-01",
       "layout": "no footer ribbon (image bleeds to bottom), image top 30px lower, 2-line headline",
+      "backgroundSource": "Same environment background as player-06 (assets/player-office-b-la-16x9.png)",
       "screenAspect": "16:9"
     },
     {
