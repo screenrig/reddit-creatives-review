@@ -476,10 +476,10 @@
       "campaign": "usecase",
       "theme": "factory-floor — Factory floor (screenrig.ai/use-cases/factory-floor)",
       "onImageText": [
-        "Shift KPIs on the floor,",
+        "Real-time KPIs on the floor,",
         "no IT ticket."
       ],
-      "headline": "Free factory-floor screens with live shift KPIs from your agent",
+      "headline": "Free factory-floor screens with real-time KPIs from your agent",
       "chat": [
         {
           "role": "agent",
@@ -516,7 +516,7 @@
         "header": "badge",
         "phoneStyle": "grok-light",
         "agentName": "Chief",
-        "titleClass": "t-long"
+        "titleClass": "t-long t-xlong"
       },
       "screenAspect": "16:9",
       "visualSource": "AI-generated photoreal 16:9 still (Grok Bot image tool; curds CLI not installed). Inspiration: telemetryos.com/industries",
