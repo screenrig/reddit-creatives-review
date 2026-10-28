@@ -373,9 +373,9 @@
       "theme": "restaurants — Restaurants (screenrig.ai/use-cases/restaurants)",
       "onImageText": [
         "Menus that update",
-        "when you sell out."
+        "as you sell"
       ],
-      "headline": "Free menu boards your AI agent updates as you sell out",
+      "headline": "Free menu boards your AI agent updates as you sell",
       "chat": [
         {
           "role": "agent",
