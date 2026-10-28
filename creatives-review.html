@@ -53,7 +53,7 @@ textarea{width:100%;min-height:52px;background:#1a2130;color:var(--tx);border:1p
 .msgs{flex:1;padding:4px;display:flex;flex-direction:column;gap:3px;justify-content:flex-end;overflow:hidden}
 .m{font-size:6.6px;line-height:1.3;padding:4px 5px;border-radius:7px;max-width:88%}.m.a{background:#fff;color:#111;border:1px solid #e3e7ee;align-self:flex-start}.m.y{background:#2b6be6;color:#fff;align-self:flex-end}
 .inp{margin:4px;border:1px solid #dde2ea;border-radius:9px;font-size:6px;color:#999;padding:3px 5px;display:flex;justify-content:space-between}.inp span{background:#2b6be6;color:#fff;border-radius:50%;width:9px;height:9px;text-align:center;line-height:9px}
-.foot{position:absolute;left:0;right:0;bottom:3px;text-align:center;color:#fff;font-size:6.3px;text-shadow:0 1px 2px #000;z-index:2}
+.foot{position:absolute;left:0;right:0;bottom:7px;text-align:center;color:#fff;font-size:6.3px;text-shadow:0 1px 2px #000;z-index:2}
 /* scene backdrops */
 .b-lobby{background:linear-gradient(90deg,#8a6a45 0 22%,#b9b3aa 22% 100%)}.b-lobby .prop{background:linear-gradient(#efece6,#d9d4cb);left:40px;right:150px;height:46px;border-radius:2px}
 .b-cafe{background:linear-gradient(#efe7da 0 70%,#7a5a3c 70%)}.b-cafe .prop{background:repeating-linear-gradient(90deg,#c9a06c 0 18px,#b88d58 18px 22px);height:34px;bottom:14px}
@@ -149,7 +149,7 @@ body.full .mockwrap{width:1080px;height:1080px}body.full .mock{transform:scale(3
 .rp-av{width:24px;height:24px;border-radius:50%;background:#f2b134;display:flex;align-items:center;justify-content:center;flex:none;overflow:hidden}.rp-av img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block}
 .rp-hd b{font-weight:600;color:var(--rp-tx)}.rp-hd .rp-ad{color:var(--rp-mut)}
 .rp-more{margin-left:auto;width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--rp-tx)}.rp-more svg{width:16px;height:16px}
-.rp-title{font-size:17px;line-height:22px;font-weight:600;color:#f2f4f5;margin:0 0 10px;letter-spacing:-.005em;overflow-wrap:anywhere}
+.rp-title{font-size:17px;line-height:22px;font-weight:600;color:var(--rp-ttl,#f2f4f5);margin:0 0 10px;letter-spacing:-.005em;overflow-wrap:anywhere}
 .rp-media{border-radius:16px;overflow:hidden;border:1px solid var(--rp-ln);width:max-content;max-width:100%;background:#000;line-height:0}
 .rp-media .mock{border-radius:0}
 .rp-link{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:10px 0 4px;font-size:14px;color:var(--rp-tx)}
@@ -164,6 +164,13 @@ body.full .rpost{width:auto;max-width:100%}body.full .rp-title{font-size:22px;li
 .stamp{display:none}
 .stamp{position:absolute;left:6px;top:136px;z-index:4;background:rgba(0,0,0,.55);color:var(--mus);font-size:9px;padding:1px 5px;border-radius:3px}
 .toast{position:fixed;bottom:20px;right:20px;background:var(--mus);color:#1d2533;padding:10px 14px;border-radius:6px;font-weight:700;display:none}
+/* Reddit Card light mode (toggle) */
+.rpost{--rp-ttl:#f2f4f5;transition:background .15s,color .15s,border-color .15s}
+body.rp-light .rpost{--rp-bg:#ffffff;--rp-ln:#e5ebee;--rp-tx:#181c1f;--rp-ttl:#0f1a1c;--rp-mut:#576f76;--rp-btn:#e5ebee;--rp-btnh:#d2dadd;box-shadow:0 1px 3px rgba(0,0,0,.18)}
+body.rp-light .rp-cta{background:#e5ebee;border-color:#e5ebee;color:#0f1a1c}
+body.rp-light .rp-media{border-color:#e5ebee}
+button#themeBtn .sw{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px;border:1px solid currentColor;background:#fff}
+body.rp-light button#themeBtn .sw{background:#1a1a1b}
 /* mobile-friendly */
 html{-webkit-text-size-adjust:100%}
 img{max-width:100%;height:auto}
@@ -199,6 +206,7 @@ header button{flex:1 1 calc(50% - 6px)}
 <div class="counts" id="counts"></div>
 <nav><a href="#product">Product</a><a href="#usecase">Use cases</a><a href="#player">Players</a></nav>
 <button class="ghost" id="sizeBtn" onclick="toggleSize()">View: full size (1080)</button>
+<button class="ghost" id="themeBtn" onclick="toggleTheme()" aria-pressed="false" title="Flip every Reddit Card preview between Reddit dark and light feed styling"><span class="sw"></span>Light mode</button>
 <button class="ghost" onclick="toggleAll()">Approve all / none</button>
 <button onclick="exportJSON()">Export approvals</button></header>
 <main id="main"></main><div class="toast" id="toast"></div>
@@ -273,6 +281,8 @@ function setNote(id,v){(state[id]=state[id]||{}).note=v;save()}
 function counts(){const all=BRIEF.creatives,ok=all.filter(c=>state[c.id]?.ok).length,per=k=>{const L=all.filter(c=>c.campaign===k);return `${L.filter(c=>state[c.id]?.ok).length}/${L.length}`};
 document.getElementById('counts').innerHTML=`<strong>${ok}/${all.length}</strong> approved · product ${per('product')} · usecase ${per('usecase')} · player ${per('player')}`}
 function toggleSize(){const f=document.body.classList.toggle('full');document.getElementById('sizeBtn').textContent=f?'View: gallery (360)':'View: full size (1080)';localStorage.setItem(KEY+'-full',f?'1':'')}
+function setTheme(l){document.body.classList.toggle('rp-light',l);const b=document.getElementById('themeBtn');if(b){b.innerHTML='<span class="sw"></span>'+(l?'Dark mode':'Light mode');b.setAttribute('aria-pressed',l?'true':'false')}localStorage.setItem(KEY+'-light',l?'1':'')}
+function toggleTheme(){setTheme(!document.body.classList.contains('rp-light'))}
 function toggleAll(){const all=BRIEF.creatives,v=!all.every(c=>state[c.id]?.ok);all.forEach(c=>(state[c.id]=state[c.id]||{}).ok=v);save();render()}
 function exportJSON(){const out={exportedAt:new Date().toISOString(),reviewer:'Chris Hilliard',
 approved:BRIEF.creatives.filter(c=>state[c.id]?.ok).map(c=>c.id),
@@ -283,5 +293,5 @@ a.download='reddit-creatives-approvals.json';a.click();const t=document.getEleme
 function fitMocks(){const w=document.documentElement.clientWidth,r=document.documentElement.style;r.setProperty('--mk',(Math.min(360,w-76)/360).toFixed(4));r.setProperty('--mkf',(Math.min(1080,w-72)/360).toFixed(4))}
 addEventListener('resize',fitMocks);fitMocks();
 const _q=new URLSearchParams(location.search);
-if(_q.get('export')){window.__EXPORT=1;const c=BRIEF.creatives.find(x=>x.id===_q.get('export'));document.body.className='export';document.body.innerHTML=mock(c);}else{render();if(localStorage.getItem(KEY+'-full')){document.body.classList.add('full');document.getElementById('sizeBtn').textContent='View: gallery (360)'}}
+if(_q.get('export')){window.__EXPORT=1;const c=BRIEF.creatives.find(x=>x.id===_q.get('export'));document.body.className='export';document.body.innerHTML=mock(c);}else{render();if(localStorage.getItem(KEY+'-full')){document.body.classList.add('full');document.getElementById('sizeBtn').textContent='View: gallery (360)'}if(localStorage.getItem(KEY+'-light'))setTheme(true)}
 </script></body></html>
