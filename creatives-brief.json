@@ -1106,10 +1106,10 @@
       "campaign": "player",
       "theme": "brightsign — BrightSign",
       "onImageText": [
-        "Any BrightSign becomes",
+        "Any BrightSign player becomes",
         "a digital signage screen."
       ],
-      "headline": "Any BrightSign becomes a free digital signage screen.",
+      "headline": "Any BrightSign player becomes a free digital signage screen.",
       "chat": [
         {
           "role": "agent",
