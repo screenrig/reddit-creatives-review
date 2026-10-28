@@ -127,7 +127,7 @@
         "badgeSize": "sm",
         "header": "badge"
       },
-      "screenContent": "As in the repo creative",
+      "screenContent": "As in the repo creative, pairing graphic raised 20% of screen height off the bottom bezel (raise_product02_screen.py)",
       "visualSource": "Repo creative ad-07.png (Chris's preferred background): scene below header, old phone/footer inpainted — make_product_from_repo.py",
       "brandAssets": {
         "source": "https://screenrig.ai/brandkit",
@@ -207,7 +207,7 @@
         "No dashboard.",
         "Just ask."
       ],
-      "headline": "Skip the signage dashboard. Just ask your agent. Free.",
+      "headline": "Skip the expensive dashboard app. Just ask your agent. It's Free.",
       "chat": [
         {
           "role": "agent",
